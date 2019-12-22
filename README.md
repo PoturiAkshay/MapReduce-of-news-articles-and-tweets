@@ -10,3 +10,6 @@ Steps for running all the processes:
 5. A python script tweets_from_MongoDB.py is used to get only the text of all tweets present in Mongo DB and store in a new text file(tweets.txt).
 6. The file created in above step is placed in a separate directory along with all the files created for articles present in SGM files.
 7. A python script MapReducer.py is used to run the map reducer in PySpark and find the frequencies of given words in all the files stored in above step. The directory of all the files is hardcoded in the python script which can be changed manually.
+
+
+NOTE: more details can be found in Project_Report.pdf file
